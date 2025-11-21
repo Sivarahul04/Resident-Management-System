@@ -12,20 +12,12 @@ import ManageServices from "./Pages/ManageServices";
 import ManageRequest from "./Pages/ManageRequest";
 import SuperAdminDashboard from "./Pages/SuperAdminDashboard";
 import SuperAdminReports from "./Pages/SuperAdminReports";
-import Apis from "./Components/Apis";
-import EmployeeApi from "./Components/EmployeeApi";
-import Input from "./Components/Input";
-import EmployeeInput from "./Components/EmployeeInput";
+
 import RequestDetail from "./Pages/RequestDetail";
-import Users from "./Components/Users";
-// import EditForm from "./Components/EditForm";
+
 import EditRequest from "./Pages/EditRequest";
 import RequestsPage from "./Pages/RequestsPage";
 import ManageAdmin from "./Pages/ManageAdmin";
-// import ToDo from "./Rough/ToDo";
-// import About from "./Components/About";
-import Rough from "./Components/Rough";
-import Simply from "./Components/Simply";
 
 
 function App() {
@@ -53,13 +45,13 @@ function App() {
        
 
 
-        <Route path="/apis" element={<Apis />}/>
+        {/* <Route path="/apis" element={<Apis />}/>
         <Route path="/table" element={<EmployeeApi />} />
         <Route path="/input" element={<Input />}/>
         <Route path="/employee" element={<EmployeeInput />} />
         <Route path="/users" element={<Users />}/>
         <Route path="/edit" element={<Rough/>}/>
-        <Route path="/todo" element={<Simply />}/>
+        <Route path="/todo" element={<Simply />}/> */}
 
 
         
